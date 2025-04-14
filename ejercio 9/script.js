@@ -1,6 +1,5 @@
 function boton(){
-     function boton(){
-   
+     
     function Persona(nombre, edad, genero) {
         this.nombre = nombre;
         this.edad = edad;
@@ -22,7 +21,6 @@ function boton(){
     
     
     Estudiante.prototype = Object.create(Persona.prototype);
-    Estudiante.prototype.constructor = Estudiante;
     
    
     Estudiante.prototype.registrar = function() {
@@ -39,7 +37,6 @@ function boton(){
     
    
     Profesor.prototype = Object.create(Persona.prototype);
-    Profesor.prototype.constructor = Profesor;
     
     
     Profesor.prototype.asignar = function() {
