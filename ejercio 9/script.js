@@ -47,8 +47,8 @@ function boton(){
     };
     
     
-    const estudiante1 = new Estudiante("Carlos", 20, "Masculino", "Matemáticas", "1A");
-    const profesor1 = new Profesor("Ana", 35, "Femenino", "Física", "Superior");
+    const estudiante1 = new Estudiante("Hector", 20, "Masculino", "Matemáticas", "1A");
+    const profesor1 = new Profesor("Piano", 55, "Femenino", "Física", "Superior");
     
   
     console.log(estudiante1.obtDetalles()); 
