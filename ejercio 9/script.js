@@ -16,7 +16,7 @@ function Estudiante(nombre, edad, genero, curso,grupo){
 } 
 
 Estudiante.prototype = Object.create(Persona.prototype)
-Estudiante.prototype.constructor = Estudiante
+
 
 Estudiante.prototype.registrar = function(){
     console.log("Se registró en el curso " + this.curso + " grupo " + this.grupo)
@@ -30,7 +30,7 @@ function Profesor(nombre, edad, genero, asignatura, nivel){
 } 
 
 Profesor.prototype = Object.create(Persona.prototype)
-Profesor.prototype.constructor = Profesor
+
 
 Profesor.prototype.asignar = function(){
     console.log("Le asignaron la asignatura " + this.asignatura + " en el nivel " + this.nivel)
