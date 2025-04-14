@@ -1,5 +1,5 @@
 function boton(){
-    let text = "TEXTto"
+    let text = = prompt("Ingresa un texto:");
 
     if(text == text.toLowerCase())
         console.log("El texto esta en minusculas")
