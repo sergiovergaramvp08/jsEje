@@ -1,4 +1,4 @@
-function b
+function boton() {
 function Persona(nombre, edad, genero){
     this.nombre = nombre
     this.edad = edad
@@ -46,4 +46,5 @@ console.log(e1.obtDetalle())
 console.log(e1.registrar())
 console.log(pr1.obtDetalle())
 console.log(pr1.asignar())
+}
 }
