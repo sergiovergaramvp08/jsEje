@@ -1,7 +1,7 @@
 function boton() {
     let text = 'La ruta nos aporto otro paso natural';
     
-    let arr = text.replaceAll(' ', '').toLowerCase().split('');
+    let arr = text.replaceAll(' ', '').split('');
 
     let i = 0;           
     let j = arr.length - 1; 
