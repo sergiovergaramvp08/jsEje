@@ -8,13 +8,14 @@ function boton(){
         console.log("la palabra mayor es "+ valores[4]);
 
     if(booleano == valores[0])
-        console.log("el resultado es verdadero")
+        console.log("el resultado es "+valores[0])
+
     if(booleano == valores[2])
-        console.log("el resultado es falso")
+        console.log("el resultado es "+valores[2])
 
     console.log(valores[1]+"+"+valores[5]+"="+(valores[1]+valores[5]))
     console.log(valores[1]+"-"+valores[5]+"="+(valores[1]-valores[5]))
-    console.log(valores[1]+"*"+valores[5]+"="+(valores[1]*valores[5]))
+    console.log(valores[1]+""+valores[5]+"="+(valores[1]valores[5]))
     console.log(valores[1]+"/"+valores[5]+"="+(valores[1]/valores[5]))
     console.log(valores[1]+"^"+valores[5]+"="+(valores[1]**valores[5]))
 }
