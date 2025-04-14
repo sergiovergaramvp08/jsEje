@@ -1,3 +1,4 @@
+function b
 function Persona(nombre, edad, genero){
     this.nombre = nombre
     this.edad = edad
